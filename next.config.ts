@@ -12,6 +12,7 @@ const nextConfig = {
 
     return webpackConfig
   },
+  serverExternalPackages: ['jose'],
 }
 
 export default withPayload(nextConfig, { devBundleServerPackages: false })
